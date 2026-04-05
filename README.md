@@ -1,4 +1,4 @@
-# 📊 EDA & Benchmark Dataset Evaluation RepositoryThis repository is used for preprocessing, analyse the 4 benchmakr data and a self-crawled data.
+# 📊 EDA & Benchmark Dataset Evaluation Repository
 
 This repository module provides a pipeline for proccessing, exploratory data analysis and statical evaluation of four widely benchmark datasets of recommendation system, along-side our self-crawled dataset
 
@@ -34,4 +34,6 @@ The data source we will be using is from RecZoo: https://huggingface.co/reczoo
 
 + MovieLens1M: https://huggingface.co/datasets/reczoo/Movielens1M_m1
 
-All datasets follow the Reczoo .inter format, making them consistent for preprocessing and evaluation.
+# 🧪 Self-Crawled Dataset
+
+This dataset was independently collected by our team to complement the four public benchmarks and to evaluate how recommendation models behave on realistic, noisy, and large-scale interaction data outside of curated academic datasets, with more than 1 million interactions and over 6000 users.
