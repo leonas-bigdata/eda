@@ -1,0 +1,17 @@
+# Amazon-Book
+amazon-book/**/item_list.txt filter=lfs diff=lfs merge=lfs -text
+amazon-book/**/user_list.txt filter=lfs diff=lfs merge=lfs -text
+amazon-book/**/train.txt     filter=lfs diff=lfs merge=lfs -text
+amazon-book/**/test.txt      filter=lfs diff=lfs merge=lfs -text
+
+# Gowalla
+gowalla/**/item_list.txt filter=lfs diff=lfs merge=lfs -text
+gowalla/**/user_list.txt filter=lfs diff=lfs merge=lfs -text
+gowalla/**/train.txt     filter=lfs diff=lfs merge=lfs -text
+gowalla/**/test.txt      filter=lfs diff=lfs merge=lfs -text
+
+# Yelp2018
+yelp2018/**/item_list.txt filter=lfs diff=lfs merge=lfs -text
+yelp2018/**/user_list.txt filter=lfs diff=lfs merge=lfs -text
+yelp2018/**/train.txt     filter=lfs diff=lfs merge=lfs -text
+yelp2018/**/test.txt      filter=lfs diff=lfs merge=lfs -text
